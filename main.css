@@ -38,8 +38,8 @@ body {
   .fomto {
 	  width: 90px;
 	  height: 90px;
-	  background: var(--bg-color);
 	  background-image: url("https://www.pinterest.com/pin/687784174316017644/");
+	  background: var(--bg-color);
 	  background-size: cover;
 	  background-repeat: no-repeat;
 	  background-position: 50% 50%;
