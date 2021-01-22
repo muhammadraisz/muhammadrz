@@ -34,15 +34,6 @@ body {
   max-width:1080px;
   margin:0 auto;
 }
-.bumderan {
-	  -moz-box-shadow: var(--feneumorphism-inset);
-	  -webkit-box-shadow: var(--feneumorphism-inset);
-	  box-shadow: var(--feneumorphism-inset); 
-	  -moz-border-radius:50%; 
-	  -webkit-border-radius:50%; 
-	  border-radius:50%;
-	  
-  }
 
   .fomto {
 	  width: 90px;
