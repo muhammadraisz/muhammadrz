@@ -47,29 +47,7 @@
         document.body.classList.toggle("darkmode");
     }
 </script>
-//check localstorage
-if(localStorage.getItem('preferredTheme') == 'dark') {
-    setDarkMode(true)
-}
 
-function setDarkMode(isDark) {
-    var darkBtn = document.getElementById('darkBtn')
-    var lightBtn = document.getElementById('lightBtn')
-
-    if(isDark) {
-        lightBtn.style.display = "block"
-        darkBtn.style.display = "none" 
-    //tambahan localstorage
-        localStorage.setItem('preferredTheme', 'dark');
-    } else {
-        lightBtn.style.display = "none"
-        darkBtn.style.display = "block"
-     //tambahan localstorage
-        localStorage.removeItem('preferredTheme');
-    }
-
-    document.body.classList.toggle("darkmode");
-}
 
     <footer>
       Linktree Neumorphism Soft UI Design, Theme by <a href="https://www.instagram.com/muhammadrz9999">MuhammadRZ</a>, Hosted on <a href="https://github.com/muhammadraisz">GitHub</a>
