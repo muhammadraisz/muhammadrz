@@ -16,12 +16,30 @@
    
 <script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.7/lib/darkmode-js.min.js"></script>
 <script>
-  function addDarkmodeWidget(Gelap/Cerah) {
+  function addDarkmodeWidget() {
     new Darkmode().showWidget();
   }
   window.addEventListener('load', addDarkmodeWidget);
 </script>
+   const darkmode =  new Darkmode();
+darkmode.toggle();
+console.log(darkmode.isActivated()) // will return true
    
+   .darkmode--activated p, .darkmode--activated li {
+  color: #000;
+}
+
+.button {
+  isolation: isolate;
+}
+
+.darkmode--activated .logo {
+  mix-blend-mode: difference;
+}
+   <span class="darkmode-ignore">😬<span>
+      .darkmode-layer, .darkmode-toggle {
+  z-index: 500;
+}
 <body>
   
   <div class="container">
