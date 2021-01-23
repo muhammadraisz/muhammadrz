@@ -35,29 +35,6 @@ body {
   margin:0 auto;
 }
 
-//Ini style ketika normal mode(tag parent)
-body{
-    background-color: #172531;
-    color: rgb(235, 235, 235);
-}
-//Ini Style Ketika dark mode (tag parent)
-body.dark{
-    background-color: #172531;
-    color: rgb(235, 235, 235);
-}
-//Ini style ketika normal mode (tag child of body)
-.header,.navbar,.content,.footer{
-{
-    background-color: #fff;
-    color: rgb(87, 87, 87);
-}
-//Ini style ketika dark mode (tag child of body)
-.header.dark,.navbar.dark,.content.dark,.footer.dark{
-{
-    background-color: #00353e;
-    color: rgb(189, 189, 189);
-}
-
   .fomto {
 	  width: 90px;
 	  height: 90px;
@@ -120,22 +97,3 @@ body.dark{
 	10.71429% { transform:translate(0,0) }
 	100% { transform:translate(0,0) }
   }
-
-footer {
-  text-align: center;
-}
-footer a{
-  color: var(--accent-color);
-  text-decoration: none;
-}
-body {
-  padding: 25px;
-  background-color: white;
-  color: black;
-  font-size: 25px;
-}
-
-.dark-mode {
-  background-color: black;
-  color: white;
-}
